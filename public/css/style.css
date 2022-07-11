@@ -1,0 +1,40 @@
+
+.content{
+    padding-left: 150px;
+}
+ 
+.Footer-middle{
+    display: flex;
+ 
+}
+.Footer-content{
+    padding-left: 220px;
+}
+img{
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+}
+.Footer-buttom{
+    background-color: rgb(233, 234, 235);
+    width: auto;
+    text-align: center;
+   
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    
+}
+p{
+    justify-content: center;
+}
+.Footer{
+    background-image: url("https://icdn.dantri.com.vn/thumb_w/640/2019/03/29/…-kinh-dien-thoai-bi-vo-nutdocx-1553833141156.jpeg");
+    background-color: #CCCCCC;
+
+}
+

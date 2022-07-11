@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cart */
+/* header-footer */
+* {
+  box-sizing: border-box;
+}
+.header {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 175px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px #000;
+  transition-duration: 0.2s;
+  z-index: 1;
+}
+h1 {
+  width: 200px;
+  margin: 50px auto;
+  border-bottom: 8px double #fa0;
+  text-shadow: 0 0 2px #777, 3px 1px #aaa;
+  text-align: center;
+}
+h2 {
+  max-width: 100%;
+  margin: 50px auto;
+  border-bottom: 8px double #fa0;
+  text-shadow: 0 0 2px #777, 2px 1px #aaa;
+  text-align: center;
+}
+h3 {
+  position: relative;
+  top: -40px;
+  width: 80px;
+  margin: 50px auto;
+  border-bottom: 8px double #fa0;
+  text-shadow: 0 0 2px #777, 2px 1px #aaa;
+  text-align: center;
+}
+h4 {
+  position: relative;
+  top: -20px;
+  width: 100%;
+  margin: 80px auto;
+  border-bottom: 8px double #fa0;
+  text-shadow: 0 0 2px #777, 2px 1px #aaa;
+  text-align: center;
+}
+a {
+  display: inline-block;
+  width: 19.5%;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+@media (max-width: 780px) {
+  a {
+    width: 19%;
+  }
+}
+.pages {
+  position: absolute;
+  top: 175px;
+  right: 0;
+  left: 0;
+  padding: 10px 150px 100px 150px;
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .pages {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+#Home {
+  display: none;
+  text-align: justify;
+}
+#About {
+  display: none;
+  text-align: justify;
+}
+#Services {
+  display: none;
+  text-align: justify;
+}
+#Products {
+  display: none;
+  text-align: justify;
+}
+#Contacts {
+  display: none;
+  text-align: justify;
+}
+.contact-info {
+  float: left;
+  width: 27%;
+  height: 55vh;
+  margin: 10px 0;
+  padding: 20px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+@media (max-width: 900px) {
+  .contact-info {
+    width: 100%;
+  }
+}
+form {
+  float: right;
+  width: 71%;
+  height: 55vh;
+  margin: 10px 0 50px 0;
+  padding: 20px;
+  border: 1px solid #aaa;
+  font-size: 24px;
+}
+@media (max-width: 900px) {
+  form {
+    width: 100%;
+  }
+}
+input {
+  width: 49%;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+}
+#lname {
+  float: right;
+  margin-top: 10px;
+}
+#mail {
+  width: 100%;
+}
+#message {
+  width: 100%;
+  height: 15vh;
+  border-color: #aaa;
+}
+.footer {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0 -1px 4px #000;
+  transition-duration: 0.2s;
+  z-index: 1;
+}
+button {
+  float: right;
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #07f;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* header-footer */
+
+

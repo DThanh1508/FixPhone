@@ -33,7 +33,7 @@ export default class Footer extends Component {
                     </div>      
                 </div>    
                 <div className="Footer-buttom">
-                        <p>@ Bản quyền của PNV</p>
+                        <p>@ Bản quyền của Passerelles numériques Vietnam</p>
                 </div>
             </div>
         );

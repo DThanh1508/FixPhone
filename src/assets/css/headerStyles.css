@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header_top{
+    display: flex;
+    background-color: rgb(84, 80, 80);
+    height: 40px;
+    
+}
+.header_top_left{
+    margin-top: 9px;
+    padding-left: 4%;
+    color: white;
+    
+}
+.header_top_right{
+    margin-top: 9px;
+    padding-left: 55%;
+    color: white;
+
+}
+.topnav{
+    display: flex;
+    margin-bottom: 0px;
+}
+.centerDiv{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.image_logo img {
+    margin-left: 70px;
+    margin-bottom: 0px;
+
+}
+.all{
+    padding-left: 100px;
+    display: flex;
+
+    /* margin-bottom: 0px; */
+
+}
+#h_inputSearch {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.search button{
+    border: none;
+    background:none;
+}
+.search form {
+    display: flex;
+    border: solid 2px;
+    padding: 3px;
+    margin-left: 8px;
+    box-shadow: 0px 0px 5px 5px #eeecec;
+
+}
+
+.menu_center{
+    display: flex;
+    padding-left: 45%;
+}
+.menu_center a{
+    text-decoration: none;
+}
+.menu_center a:hover{
+    text-decoration: none;
+    color: blue;
+
+}
+#menu_bottom{
+    padding-left: 60px;
+    background-color: rgb(241, 238, 232);
+}
+#menu_bottom ul{
+    display: flex;
+    
+}
+.dichvu{
+    display: flex;
+
+}
+.suachua li{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.h_navImage {
+    display: flex;
+}
+.dichvu li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.dichvu  a{
+    text-decoration: none;
+    color: black;
+}
+  
+.dichvu li:hover {
+    /* background-color: rgb(160, 186, 196); */
+    background: #d7d5d5;
+    color: #333;
+}
+
+.dichvu img{
+    height: 30px;
+    margin-top: 9px;
+
+}
+li{ 
+    padding-left: 110px;
+}
+.dropbtn {
+    background-color: #b9c3b9;
+    color: rgb(11, 2, 2);
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #646f65;
+  }
+  

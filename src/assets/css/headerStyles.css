@@ -5,18 +5,18 @@
 .header_top{
     display: flex;
     background-color: rgb(84, 80, 80);
-    height: 40px;
-    
+    padding: 0 4rem;
+    justify-content: space-between;
 }
 .header_top_left{
     margin-top: 9px;
-    padding-left: 4%;
+    
     color: white;
     
 }
 .header_top_right{
     margin-top: 9px;
-    padding-left: 55%;
+    /* padding-left: 55%; */
     color: white;
 
 }
@@ -38,9 +38,6 @@
 .all{
     padding-left: 100px;
     display: flex;
-
-    /* margin-bottom: 0px; */
-
 }
 #h_inputSearch {
     border: none;
@@ -63,7 +60,7 @@
 
 .menu_center{
     display: flex;
-    padding-left: 45%;
+    /* padding-left: 45%; */
 }
 .menu_center a{
     text-decoration: none;
@@ -74,16 +71,18 @@
 
 }
 #menu_bottom{
-    padding-left: 60px;
     background-color: rgb(241, 238, 232);
+    padding: 0 4rem;
 }
 #menu_bottom ul{
+    padding: 0;
+    margin: 0;
     display: flex;
-    
 }
 .dichvu{
+    padding: 0 2rem;
     display: flex;
-
+    gap: 2rem;
 }
 .suachua li{
     margin-top: 5px;
@@ -113,9 +112,7 @@
     margin-top: 9px;
 
 }
-li{ 
-    padding-left: 110px;
-}
+
 .dropbtn {
     background-color: #b9c3b9;
     color: rgb(11, 2, 2);

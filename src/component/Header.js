@@ -1,9 +1,7 @@
 import React,{ Component} from "react";
 import '../assets/css/headerStyles.css';
 export default class Header extends Component {
-    render(
-
-    ) {
+    render() {
         return (
             <div className="header">
                 <div className="header_top">

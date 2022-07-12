@@ -80,10 +80,6 @@ export default class Content extends Component {
             </div>
           </div>
         </div>
-
-        <br />
-        <br />
-
         <div className="viewallcat-tabled">
           <a className="titel">Sửa Máy Tính Bảng</a>
           <br />

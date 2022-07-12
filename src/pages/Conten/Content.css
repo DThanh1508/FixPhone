@@ -1,1 +1,39 @@
-/*# sourceMappingURL=Content.css.map */
+.viewallcat{
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    grid-gap: 3px;
+    padding: 5px;
+    color: white;
+}
+.viewallcat-tabled{
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+
+}
+.titel{
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    grid-template-rows: 100px 100px;
+    grid-gap: 20px;
+}
+.price-wrapper{
+    color: red;
+}
+.prd{
+    
+    background-color: #fff;    
+    height: 250px;
+    width: 193px;
+    
+}
+.prd :hover{
+    box-shadow: 1px 0px 1px 0px;
+   
+}

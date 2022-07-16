@@ -1,28 +1,14 @@
 import "./Content.css";
 import React, { Component } from "react";
-
+import Categories from "../../Mockdata/Categories.json"
 export default class Content extends Component {
   render() {
     return (
       <div className="Content">
         <div className="viewallcat">
           <a className="titel">Sửa Điện Thoại</a>
-          <br />
-          <a>Thay ép mặt kính</a>
-          <br />
-          <a>Thay cảm ứng</a>
-          <br />
-          <a>Thay màn hình</a>
-          <br />
-          <a>Thay kính lưng</a>
-          <br />
-          <a>Thay pin</a>
-          <br />
-          <a>Thay camera</a>
-          <br />
-          <a>Thay chân sạc</a>
-          <br />
-          <a>Xem tất cả;</a>
+          <br/>
+          {Categories && Categories.map((item, index) => <><a key={index}>{item}</a><br /></>)}
         </div>
         <div className="container">
           <div className="prd">
